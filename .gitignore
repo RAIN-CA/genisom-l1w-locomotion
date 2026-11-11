@@ -1,0 +1,18 @@
+# local Isaac Lab 3.0 checkout (its uv venv has absolute paths) and the pre-repository workspace
+/IsaacLab
+/_legacy
+
+# training / play outputs (train.sh writes them under LOG_ROOT; logs may be a symlink to a data disk)
+/logs
+/outputs
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
